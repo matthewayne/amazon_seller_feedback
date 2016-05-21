@@ -8,8 +8,8 @@ run the following from the command line
 <code>pip install requests</code>
 
 # Usage
-```python
-python amazon_seller_feedback.py
+```
+$python amazon_seller_feedback.py
 Please input Amazon Seller URL: [Paste Amazon seller page URL here]
 "starting work..."
 [date]: [rating]
