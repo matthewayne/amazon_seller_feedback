@@ -26,8 +26,8 @@ while next_page:
 	next_page = resp['hasNextPage']
 	page_number += 1
 	form_data = { 
-		"seller":"A1X11F1UOSYIK1",
-		"marketplaceID":"ATVPDKIKX0DER",
+		"seller":str(seller),
+		"marketplaceID":str(marketplaceID),
 		"pageNumber":str(page_number)
 	}
 
